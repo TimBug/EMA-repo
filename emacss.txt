@@ -4,36 +4,62 @@ div {
      Display: flex;
 
  #box1{
-     Position: absolute;
-     border: 1px solid;
-     background-color: lightgrey; 
-     height: 200px;
-     width: 950px;
-     left: 50px;
-     text-align: center;
-     font-family: sans;
-     font-size: 7em:
-     
+    Position: fixed;
+    border: 2px solid;
+    background-color: none; 
+    height: 122px;
+    top: 40px;
+    width: 84px;
+    left: 110px;
+    text-align: center;
+    font-family: sans;
+    font-size: 7em:  
 }
- #box2{
-     position: relative;
-     border: 1px solid;
-     background-color: lightgrey;
-     top: 220px; 
-     height: 500px;
-     width: 225px;
-     left: 42px;
-     
-     
+
+#box2{
+    Position: fixed;
+    border: 2px solid;
+    background-color: lightgrey; 
+    height: 160px;
+    top: 20px;
+    width: 695px;
+    left: 300px;
+    text-align: center;
+    font-family: sans;
+    font-size: 7em:
+    
 }
- #box3{
-     position: relative;
-     border: 1px solid;
-     background-color: lightgrey; 
-     top: 220px;
-     left: 65px;
-     height: 500px;
-     width: 700px;
-     
-     
+
+#box3{
+    Position: fixed;
+    background-color: none; 
+    height: 40px;
+    top: 210px;
+    width: 695px;
+    left: 310px;
+    text-align: center;
+    
+    
+}
+#box4{
+    position: fixed;
+    border: 2px solid;
+    background-color: lightgrey;
+    top: 250px; 
+    height: 500px;
+    width: 225px;
+    left: 42px;
+    
+    
+}
+#box5{
+    position: fixed;
+    border: 2px solid;
+    background-color: lightgrey; 
+    top: 250px;
+    left: 300px;
+    height: 500px;
+    width: 700px;
+
+}
      
