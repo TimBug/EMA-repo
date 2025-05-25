@@ -1,0 +1,144 @@
+.container {
+    Display: flex;
+
+#box1{
+    Position: fixed;
+    border: 2px solid;
+    background-color: none; 
+    height: 122px;
+    top: 40px;
+    width: 84px;
+    left: 110px;
+    text-align: center;
+    font-family: sans;
+    font-size: 2em;  
+}
+
+#box2{
+    Position: fixed;
+    border: 2px solid;
+    background-color: lightgrey; 
+    height: 160px;
+    top: 20px;
+    width: 695px;
+    left: 300px;
+    text-align: center;
+    font-family: sans;
+    font-size: 1.5em;
+    
+}
+
+#box3{
+    Position: fixed;
+    background-color: none; 
+    height: 40px;
+    top: 210px;
+    width: 695px;
+    left: 310px;
+    text-align: center;
+    
+    
+}
+#box4{
+    Position: fixed;
+    background-color: none; 
+    height: 40px;
+    top: 210px;
+    width: 695px;
+    left: 310px;
+    text-align: center;
+    
+    
+}
+#box5{
+    font-family: sans-serif;
+    padding-left: 20px;
+    position: fixed;
+    border: 2px solid;
+    background-color: lightgrey; 
+    top: 250px;
+    left: 300px;
+    height: 500px;
+    width: 660px;
+
+    }
+    label {
+        display: inline-block;
+        flex-direction: row;
+        width: 250px;
+        text-align: left;
+        margin-left: 10px;
+    }​
+    input.title {
+        display: inline-block;
+        width: 250px;
+        left: 250px;
+    }
+    textarea {
+        vertical-align: top;
+        display: inline-block;
+        width: 250px;
+        left: 250px;
+    }
+      #box5{
+       display: absolute; 
+    } 
+    
+@media screen and (max-width: 375px) {
+    #box1{ 
+        height: 20%;
+        top: 2%;
+        width:30%;
+        left: 35%; 
+    }
+     #box2{
+         position: auto;   
+         height: 13%;
+         top: 22%;
+         width: 95%; 
+         left: 1%;
+        font-size: 0.85em;
+    }
+     #box3{
+        Position: auto;
+        background-color: none; 
+        height: 6%;
+        top: 36%;
+        width: 95%;
+        left: 1%;
+        text-align: center;
+    }
+     #box4{
+        display: none;
+    }
+    #box5{
+        position: auto;
+        top: 43%;
+        left: 1%;
+        height: 55%;
+        width: 90%;
+        font-size:.75em;
+    }
+    label {
+        display: inline-block;
+        flex-direction: row;
+        width: 250px;
+        text-align: left;
+        margin-left: 10px;
+    }​
+    input.title {
+        display: inline-block;
+        width: 250px;
+        left: 250px;
+    }
+    textarea {
+        vertical-align: top;
+        display: inline-block;
+        width: 250px;
+        left: 250px;
+    }
+      #box5{
+       display: absolute; 
+    } 
+}    
+}
