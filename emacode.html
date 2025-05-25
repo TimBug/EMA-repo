@@ -2,18 +2,19 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Announcments page for laptop screen</title>
-  <link rel="styleshhet" href="emacss.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Announcments page for phone screen</title>
+  <link rel="stylesheet" href="zw707972_Q2.css">
   <meta name="TimStubbs" content="zw707972">
+  
 </head>
 <body>
   <div>
-    
-  <div class="container">
+    <div class="container">
     <div id="box1">
       <img src="ouhc-logo.png" alt="OUHC logo"> 
     </div> 
-
+   
   <div id="box2">
     <h1> OU Hiking Club </h1>
     <p> Administration Application </p>
@@ -35,28 +36,34 @@
     <p> Enter Announcement details to forward to subscribed users. </p>
     
     <form action="https://students.open.ac.uk/mct/tt284/reflect/reflect.php" method="post" name="form1">
-      <label for="title">Title:</label>
-      <input type="text" data-max-words="10" id="title" name="title"><br><br><br>
+      <label for="title">Title: (max 10 words)</label>
+      <input type="text" data-max-words="10" id="title" name="title"><br><br>
       
-      <label for="Announcement"> Announcement:</label>
-      <textarea name="announcement" data-max-words="200" cols="35" rows="5">Type your announcement here...</textarea></p>
+      <label for="Announcement">Announcement:(max 200 words)</label>
+      <textarea name="Announcement" cols="35" rows="5">Type your announcement here...</textarea><br><br>
       <label for="Senders_name">Senders name:</label>
-      <input type="text" id="senders_name" name="Senders_name"><br><br>
+      <input type="text" id="Senders_name" name="Senders_name"><br>
       <label for="Date_and_time">Date and time to send email:</label>
-      <input type="text" id="date_and_time" name="Date_and_time"><br><br>
-      <label for="Select priority"> Select priority:</label>
-      <select name="Select priority" id="Select priority">
+      <input type="text" id="Date_and_time" name="Date_and_time"><br>
+      <label for="Select_priority"> Select priority:</label>
+      <select name="Select_priority" id="Select_priority">
         <option value="Low">Low:</option>
         <option value="High">High:</option>
       </select><br><br>  
-      <input type="hidden" id="SessionIdentifier" name="SessionIdentifier" value="db34-bcda6838-8070"/><br>
-      
-      <input type="submit" id="submit" name="submit" value="Submit" />
-      <input type="reset" id="reset" name="reset" value="Reset" />
-      </form>
+      <input type="hidden" id="SessionIdentifier" name="SessionIdentifier" value="db34-bcda6838-8070">
+      <div id="box6"><br>
+      <input type="submit" id="submit" name="submit" value="Submit">
+      <input type="reset" id="reset" name="reset" value="Reset">
+      </div>
+        
     
-  </div>
-  
+    </form>
+        </div>
+     </div>
   </div>
   </body>
   </html>
+
+
+
+    
