@@ -2,23 +2,26 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <!--add meta viewport code to allow html to be responsive and to set scale -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Announcments page for phone screen</title>
   <link rel="stylesheet" href="zw707972_Q2.css">
   <meta name="TimStubbs" content="zw707972">
-  
 </head>
+<!--create divs and container for body of page-->
 <body>
   <div>
     <div class="container">
+    <!--box 1 for OUHC logo-->  
     <div id="box1">
       <img src="ouhc-logo.png" alt="OUHC logo"> 
     </div> 
-   
+  <!--box 2 for OUHC heading and text--> 
   <div id="box2">
     <h1> OU Hiking Club </h1>
     <p> Administration Application </p>
   </div>
+  <!--box 3 for navigation elements-->
   <div id="box3">
     <nav>
         <button>Admin Home</button> 
@@ -28,30 +31,37 @@
         <button>News Items</button> 
     </nav>
   </div>
+  <!--box 4 removed for responsive design-->
   <div id="box4">
   </div>
-  
+  <!--box 5 to contain form elements and textarea-->
   <div id="box5">
     <h1> Announcements Page</h1>
     <p> Enter Announcement details to forward to subscribed users. </p>
-    
+    <!--create code for reflector page to submit form details to-->
     <form action="https://students.open.ac.uk/mct/tt284/reflect/reflect.php" method="post" name="form1">
+      <!--label and input box for event title-->
       <label for="title">Title: (max 10 words)</label>
       <input type="text" data-max-words="10" id="title" name="title"><br><br>
-      
+      <!--label and textarea for announcements-->
       <label for="Announcement">Announcement:(max 200 words)</label>
       <textarea name="Announcement" cols="35" rows="5">Type your announcement here...</textarea><br><br>
+      <!--label and input box for sender name-->
       <label for="Senders_name">Senders name:</label>
       <input type="text" id="Senders_name" name="Senders_name"><br>
+      <!--label and input box for date and time to send email-->
       <label for="Date_and_time">Date and time to send email:</label>
       <input type="text" id="Date_and_time" name="Date_and_time"><br>
+      <!--label and select element for email priority-->
       <label for="Select_priority"> Select priority:</label>
       <select name="Select_priority" id="Select_priority">
         <option value="Low">Low:</option>
         <option value="High">High:</option>
-      </select><br><br>  
+      </select><br><br> 
+      <!--hidden element to identify session--> 
       <input type="hidden" id="SessionIdentifier" name="SessionIdentifier" value="db34-bcda6838-8070">
       <div id="box6"><br>
+      <!-- sebmit and reset buttons-->  
       <input type="submit" id="submit" name="submit" value="Submit">
       <input type="reset" id="reset" name="reset" value="Reset">
       </div>
