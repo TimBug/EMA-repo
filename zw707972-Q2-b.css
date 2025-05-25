@@ -1,6 +1,6 @@
 .container {
     Display: flex;
-
+/* css for non responsive elements upto box 5 carried over from the solution to Q2-a*/
 #box1{
     Position: fixed;
     border: 2px solid;
@@ -83,14 +83,16 @@
       #box5{
        display: absolute; 
     } 
-    
+  /* media query to make page responsive for a 375px wide M mobile */  
 @media screen and (max-width: 375px) {
+    /* reposition and resize box1 which includes the logo */
     #box1{ 
         height: 20%;
         top: 2%;
         width:30%;
         left: 35%; 
     }
+    /* reposition and resize box 2 containing the header and text */ 
      #box2{
          position: auto;   
          height: 13%;
@@ -99,6 +101,7 @@
          left: 1%;
         font-size: 0.85em;
     }
+    /* reposition and resize box 3 containing the navigation element */ 
      #box3{
         Position: auto;
         background-color: none; 
@@ -108,9 +111,11 @@
         left: 1%;
         text-align: center;
     }
+    /* remove box 4 to tidy up the look of the page */ 
      #box4{
         display: none;
     }
+    /* reposition and resize box 5 containing the form element  */ 
     #box5{
         position: auto;
         top: 43%;
@@ -141,4 +146,6 @@
        display: absolute; 
     } 
 }    
-}
+}    ​
+    
+ 
