@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Announcments page for laptop screen</title>
+  <link rel="stylesheet" href="zw707972_Q1.css">
+  <meta name="TimStubbs" content="zw707972">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+  <div>
+    
+  <div class="container">
+    <div id="box1">
+      <img src="ouhc-logo.png" alt="OUHC logo"> 
+    </div> 
 
+  <div id="box2">
+    <h1> OU Hiking Club </h1>
+    <p> Administration Application </p>
+  </div>
+  <div id="box3">
+    <nav>
+        <button>Admin Home</button> 
+        <button>Hike Events</button> 
+        <button>Other Events</button> 
+        <button>Membership</button> 
+        <button>News Items</button> 
+    </nav>
+  </div>
+  <div id="box4">
+  </div>
+  
+  <div id="box5">
+    <h1> Announcements Page</h1>
+    <p> Enter Announcement details to forward to subscribed users. </p>
+    
+    <form action="https://students.open.ac.uk/mct/tt284/reflect/reflect.php" method="post" name="form1">
+      <label for="title">Title:</label>
+      <input type="text" data-max-words="10" id="title" name="title"><br><br><br>
+      
+      <label for="Announcement"> Announcement:</label>
+      <textarea name="announcement" data-max-words="200" cols="35" rows="5">Type your announcement here...</textarea></p>
+      <label for="Senders_name">Senders name:</label>
+      <input type="text" id="senders_name" name="Senders_name"><br><br>
+      <label for="Date_and_time">Date and time to send email:</label>
+      <input type="text" id="date_and_time" name="Date_and_time"><br><br>
+      <label for="Select priority"> Select priority:</label>
+      <select name="Select priority" id="Select priority">
+        <option value="Low">Low:</option>
+        <option value="High">High:</option>
+      </select><br><br>  
+      <input type="hidden" id="SessionIdentifier" name="SessionIdentifier" value="db34-bcda6838-8070"/><br>
+      
+      <input type="submit" id="submit" name="submit" value="Submit" />
+      <input type="reset" id="reset" name="reset" value="Reset" />
+      </form>
+    
+  </div>
+  
+  </div>
+  </body>
+  </html>
